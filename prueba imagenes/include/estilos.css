@@ -1,0 +1,207 @@
+body{
+	
+	font: 20px arial,sans-serif;
+	padding:0;
+	margin:0;
+	background-color: #1293d4;
+}	
+
+	/* estilos globales */
+	.contenedor{
+		
+	 width:60%;
+	 margin: auto;
+	 overflow: hidden;
+	}
+	
+	ul{
+		
+		margin:0;
+		padding:0;
+		
+	}
+
+	.boton1{
+	
+	height:38px;
+	background-color:#e8431d;
+	border: 0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#fff;
+	}
+	
+	/* Encabezado*/
+	header img{
+	width:115px;
+	float:left;
+	}
+	header{
+	background-color:black;
+	color:white;
+	padding-top:20px;
+	min-height:70px;
+	
+	
+	}
+	
+	header a{
+	color: #fff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:19px;
+	}
+	
+	header li{
+	
+	 float: left;
+	 display:inline;
+	padding: 0 20px 0 20px;
+	
+	}
+	
+	header #marca{
+	
+	float:left;
+	
+	}
+	
+	header #marca h1{
+	
+	margin:0;
+	
+	}
+	
+	header nav{
+	
+	float:right;
+	margin-top:10px;
+	
+	}
+	
+	header .resaltado, header .actual a{
+	
+	color:#1293d4;
+	font-weight:blod;
+	
+	}
+	
+	
+	header a:hover{
+	
+	color:#ccc;
+	font-weight:blod;
+	
+	}
+	
+	/* CABECERA IMAGEN*/
+	#cabecera{
+	
+	min-height:350px;
+	background: url('img/Theseus.jpg') no-repeat +140px -1px ;
+	
+	text-align: center;
+	color: white;
+	
+	}
+	
+	#cabecera h1{
+	
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+	
+	}
+	
+	#cabecera p{
+	
+	font-size:20px;
+	
+	
+	}
+	
+	#cabeceras{
+		font: 20px arial;
+		color:white;
+	}
+	#cabeceras h1{
+	
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+	text-align: center;
+	
+	}
+	
+	
+	/* formulario boletin*/
+	
+	#boletin{
+	
+	padding:15px;
+	color:white;
+	background:#24282b;
+	
+	}
+	
+	#boletin h1{
+	
+	float:left;
+	
+	}
+	
+	#boletin form{
+	
+	float:right;
+	margin-top:15px;
+	}
+	
+	#boletin input[type="email"]{
+	
+	padding:4px;
+	height:25px;
+	width:250px;
+	
+	}
+	
+	/* cajas */
+	
+	#cajas{
+	
+	margin-top:20px;
+	
+	}
+	
+	#cajas .caja{
+	
+	color:white;
+	float:left;
+	text-align:center;
+	width:30%;
+	padding:10px;
+	}
+	#cajas .resaltado{
+	color:yellow;
+	font-weight:blod;
+	}
+	
+	
+	
+	#cajas .caja img{
+	
+	width:150px;
+	
+	}
+	
+	/*footer pie de pagina*/
+	
+	footer{
+		
+		padding:20px;
+		margin-top:20px;
+		color:white;
+		background-color:#24282b;
+		text-align:center;
+		
+		
+	}
